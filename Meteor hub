@@ -1,8 +1,10 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("Meteor hub","keybind h","",Enum.KeyCode.H);
+local Library = DarkraiX:Window("Meteor hun","keybind h","",Enum.KeyCode.H);
 
 Tab1 = Library:Tab("Main")
+
+Tab1:Seperator("Scripts")
 
 Tab1:Button("Hoho hub",function()
     print("hi")
@@ -19,6 +21,15 @@ Tab1:Button("Vhub",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
 end)
 
+Tab1:Seperator("shooting games")
+ 
+Tab1:Button("Pwnerhub",function()
+    print("you executed Pwnerhub!")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+
+Tab1:Seperator("Scripts")
+
 Tab1:Button("combat warriors",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
@@ -29,9 +40,34 @@ Tab1:Button("doors",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 end)
 
+Tab1:Button("fly v3",function()
+    print("you executed fly v3")
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\79\122\56\48\48\56\47\102\103\51\47\109\97\105\110\47\103\117\105\34\41\41\40\41\10")()
+end)
+ 
+Tab1:Button("Fates ESP",function()
+    print("you executed fates esp")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
 Tab1:Button("da hood",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+Tab1:Button("HD Master",function()
+    print("you executed Hd!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminMasterofficial/HD-Master/main/HD%20Master.lua", true))()
+end)
+
+Tab1:Button("admin master",function()
+    print("you executed Admin!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AdminMasterofficial/Admin-Master/main/Admin%20Master.lua", true))()
+end)
+
+Tab1:Button("SpaceX da hood",function()
+    print("you executed da hood!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood"))()
 end)
 
 Tab2 = Library:Tab("Micse")
@@ -53,6 +89,26 @@ end)
 Tab2:Button("keyboard",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab2:Button("GamesHub",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+
+Tab2:Button("mini hub v2",function()
+    print("you executed fle")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+end)
+
+Tab2:Button("British hub v6",function()
+    print("you executed British")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+end)
+
+Tab2:Button("build a boat",function()
+    print("you executed a boat!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
 end)
 
 Tab3 = Library:Tab("IN DEVELOPMENT")
