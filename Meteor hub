@@ -11,6 +11,11 @@ Tab1:Button("Hoho hub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
 end)
 
+Tab1:Button("Fates ESP",function()
+    print("you executed fates esp")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
 Tab1:Button("funky friday for pc if you want to use it on mobile you need a big screen",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
@@ -131,10 +136,22 @@ Tab2:Button("build a boat",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
 end)
 
-Tab3 = Library:Tab("IN DEVELOPMENT")
+Tab3 = Library:Tab("Updates/Changelog")
 
-Tab4 = Library:Tab("Credits")
+Tab3:Seperator("added Fates esp")
 
-Tab4:Seperator("Ui made by Zachts")
+Tab3:Seperator("added Fly v3")
 
-Tab4:Seperator("credits to the people that I put scripts")
+Tab3:Seperator("added Fly v2")
+
+Tab3:Seperator("added Animation Changer v4")
+
+Tab3:Seperator("added Animation Changer v2")
+
+Tab4 = Library:Tab("IN DEVELOPMENT")
+
+Tab5 = Library:Tab("Credits")
+
+Tab5:Seperator("Ui made by Zachts")
+
+Tab5:Seperator("credits to the people that I put scripts")
