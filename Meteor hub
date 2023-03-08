@@ -1,0 +1,64 @@
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+local Library = DarkraiX:Window("Meteor hub","keybind h","",Enum.KeyCode.H);
+
+Tab1 = Library:Tab("Main")
+
+Tab1:Button("Hoho hub",function()
+    print("hi")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
+end)
+
+Tab1:Button("funky friday for pc if you want to use it on mobile you need a big screen",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+end)
+
+Tab1:Button("Vhub",function()
+    print("hi")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+
+Tab1:Button("combat warriors",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+
+Tab1:Button("doors",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1:Button("da hood",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+Tab2 = Library:Tab("Micse")
+
+Tab2:Slider("Slider",1,100,25,function(value)
+        print(value)
+    end)
+
+Tab2:Button("inf yield",function()
+    print("hi")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2:Button("Reviz",function()
+    print("hi")
+loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+end)
+
+Tab2:Button("keyboard",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab3 = Library:Tab("IN DEVELOPMENT")
+
+Tab4 = Library:Tab("Credits")
+
+Tab4:Seperator("Ui made by Zachts")
+
+Tab4:Seperator("credits to the people that I put scripts")
