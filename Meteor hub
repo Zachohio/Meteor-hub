@@ -33,6 +33,11 @@ Tab1:Button("Pwnerhub",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
 end)
 
+Tab1:Button("Xmiles Aimbot",function()
+    print("you executed Pwnerhub!")
+loadstring(game:HttpGet("https://pastebin.com/raw/nnptrefv"))()
+end)
+
 Tab1:Seperator("Scripts")
 
 Tab1:Button("combat warriors",function()
@@ -138,15 +143,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("added Fates esp")
-
-Tab3:Seperator("added Fly v3")
-
-Tab3:Seperator("added Fly v2")
-
-Tab3:Seperator("added Animation Changer v4")
-
-Tab3:Seperator("added Animation Changer v2")
+Tab3:Seperator("Added Xmiles Aimbot")
 
 Tab4 = Library:Tab("IN DEVELOPMENT")
 
