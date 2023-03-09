@@ -57,11 +57,6 @@ Tab1:Button("jh hh gaming",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro'))()
 end)
 
-Tab1:Button("Vape|made by me",function()
-    print("hi")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Zachohio/Meteor-hub/main/Vape'))()
-end)
-
 Tab1:Seperator("Scripts")
 
 Tab1:Button("combat warriors",function()
