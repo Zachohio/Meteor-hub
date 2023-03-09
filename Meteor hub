@@ -158,11 +158,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("Removed Infinite Yield")
-
-Tab3:Seperator("Removed Vape")
-
-Tab3:Seperator("added Infectious Smile")
+Tab3:Line(added notification)
 
 Tab4 = Library:Tab("My Scripts")
 
