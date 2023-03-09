@@ -52,7 +52,7 @@ end)
 
 Tab1:Button("Vape|made by me",function()
     print("hi")
-loadstring(game:HttpGet('https:///Zachohio/Meteor-hub/main/Vape'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Zachohio/Meteor-hub/main/Vape'))()
 end)
 
 Tab1:Seperator("Scripts")
