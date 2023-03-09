@@ -158,7 +158,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Line(added notification)
+Tab3:Seperator("added notifications")
 
 Tab4 = Library:Tab("My Scripts")
 
