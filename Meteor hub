@@ -4,6 +4,8 @@ local Library = DarkraiX:Window("Meteor hub","keybind J","",Enum.KeyCode.J);
 
 Tab1 = Library:Tab("Main")
 
+Tab1:Seperator("Hi, Welcome to Meteor Hub fucker")
+
 Tab1:Seperator("Scripts")
 
 Tab1:Button("Hoho hub",function()
@@ -14,6 +16,11 @@ end)
 Tab1:Button("Fates ESP",function()
     print("you executed fates esp")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+Tab1:Button("Infectious Smile",function()
+    print("you executed fates esp")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
 end)
 
 Tab1:Button("funky friday for pc if you want to use it on mobile you need a big screen",function()
@@ -102,7 +109,6 @@ Tab2 = Library:Tab("Micse")
 Tab2:Button("inf yield",function()
     print("hi")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
 
 Tab2:Button("Reviz",function()
     print("hi")
@@ -161,7 +167,11 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("Added Xmiles Aimbot")
+Tab3:Seperator("Removed Infinite Yield")
+
+Tab3:Seperator("Removed Vape")
+
+Tab3:Seperator("Infectious Smile")
 
 Tab4 = Library:Tab("My Scripts")
 
@@ -185,6 +195,8 @@ end)
 Tab6 = Library:Tab("IN DEVELOPMENT")
 
 Tab7 = Library:Tab("Credits")
+
+Tab7:Seperator("Peter Griffin says: YOU STUPID NIGGER I HATE NIGGERS")
 
 Tab7:Seperator("Ui made by Zachts")
 
