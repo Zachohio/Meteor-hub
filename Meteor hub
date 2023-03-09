@@ -167,7 +167,7 @@ Tab3:Seperator("Removed Infinite Yield")
 
 Tab3:Seperator("Removed Vape")
 
-Tab3:Seperator("Infectious Smile")
+Tab3:Seperator("added Infectious Smile")
 
 Tab4 = Library:Tab("My Scripts")
 
