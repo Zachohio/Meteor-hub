@@ -4,7 +4,7 @@ local Library = DarkraiX:Window("Meteor hub","keybind J","",Enum.KeyCode.J);
 
 Tab1 = Library:Tab("Main")
 
-Tab1:Seperator("Hi, Welcome to Meteor Hub fucker")
+Tab1:Seperator("Hi Welcome to Meteor Hub fucker")
 
 Tab1:Seperator("Scripts")
 
@@ -106,10 +106,6 @@ end)
 
 Tab2 = Library:Tab("Micse")
 
-Tab2:Button("inf yield",function()
-    print("hi")
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-
 Tab2:Button("Reviz",function()
     print("hi")
 loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
@@ -196,7 +192,7 @@ Tab6 = Library:Tab("IN DEVELOPMENT")
 
 Tab7 = Library:Tab("Credits")
 
-Tab7:Seperator("Peter Griffin says: YOU STUPID NIGGER I HATE NIGGERS")
+Tab7:Seperator("Peter Griffin says YOU STUPID NIGGER I HATE NIGGERS")
 
 Tab7:Seperator("Ui made by Zachts")
 
