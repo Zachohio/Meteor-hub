@@ -194,7 +194,7 @@ wait(9)
 end)
 
 Tab7:Button("YouTube",function()
-setcilpboard("https://www.youtube.com/@Zacharyo217")
+setclipboard("https://www.youtube.com/@Zacharyo217")
 game.StarterGui:SetCore("SendNotification", {Title="YouTube has been copied your clipboard"; Text="you better subscribe or I will fuck you"; Duration=3;})
 wait(4)
 end)
