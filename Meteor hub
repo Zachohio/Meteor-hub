@@ -191,4 +191,16 @@ Tab7:Seperator("Peter Griffin says YOU STUPID NIGGER I HATE NIGGERS")
 
 Tab7:Seperator("Ui made by Zachts")
 
+Tab7:Button("Discord", function()
+setclipboard("https://discord.gg/Wnx7CkaZ")
+game.StarterGui:SetCore("SendNotification", {Title="discord has been copied your clipboard"; Text="you were brave enough eh"; Duration=6;})
+wait(9)
+end)
+
+game.StarterGui:SetCore("SendNotification", {Title="Hi"; Text="a little reminder if you want to join the discord is in credits"; Duration=3;})
+wait(4)
+
+game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel is: Zachts"; Duration=6;})
+wait(9)
+
 Tab7:Seperator("credits to the people that I put scripts")
