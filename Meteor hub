@@ -151,6 +151,13 @@ Tab2:Button("build a boat",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
 end)
 
+Tab2:Button("evade",function()
+    print("you executed a boat!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+game.StarterGui:SetCore("SendNotification", {Title="something abt you"; Text="probably sucks at the game and an editor"; Duration=3;})
+wait(4)
+end)
+
 Tab2:Button("spy gui",function()
     print("you executed a boat!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
