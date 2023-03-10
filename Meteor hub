@@ -64,6 +64,11 @@ Tab1:Button("combat warriors",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
 end)
 
+Tab1:Button("be ninja parkour",function()
+    print("hi")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheExploiterBoy/be-ninja-parkour/main/be%20ninja%20parkour'))()
+end)
+
 Tab1:Button("doors",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
@@ -165,7 +170,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("added notifications")
+Tab3:Seperator("added be ninja parkour")
 
 Tab4 = Library:Tab("My Scripts")
 
