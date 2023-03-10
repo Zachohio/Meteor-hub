@@ -99,7 +99,7 @@ Tab1:Button("SpaceX da hood",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood"))()
 end)
 
-Tab2 = Library:Tab("Micse")
+Tab2 = Library:Tab("Mics")
 
 Tab2:Button("Reviz",function()
     print("hi")
