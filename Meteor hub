@@ -168,6 +168,11 @@ Tab2:Button("spy gui",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
 end)
 
+Tab2:Button("ghost hub v3| my first ever YouTube hacker creator",function()
+    print("you executed a boat!")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TheExploiterBoy/GhostPlayer-v3-/main/Ghostplayer%20hub%20v3'))()
+end)
+
 Tab3 = Library:Tab("Updates/Changelog")
 
 Tab3:Seperator("added be ninja parkour")
