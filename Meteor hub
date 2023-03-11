@@ -205,13 +205,21 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("added be ninja parkour")
+Tab3:Seperator("added Car Dealership Tycoon")
+
+Tab3:Seperator("Starving Artist")
+
+Tab3:Seperator("RTX Gui")
+
+Tab3:Seperator("Fates Admin")
+
+Tab3:Seperator("Simplity V2 Hub")
 
 Tab4 = Library:Tab("My Scripts")
 
 Tab4:Button("Zhub",function()
     print("you executed a boat!")
-loadstring(game:HttpGet('https://pastebin.com/raw/qszMmgXD'))()
+loadstring(game: Http get ('https://pastebin.com/raw/qszMmgXD'))()
 end)
 
 Tab5 = Library:Tab("Executers")
@@ -252,4 +260,4 @@ wait(4)
 game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel is: Zachts"; Duration=6;})
 wait(9)
 
-Tab7:Seperator("credits to the people that I put scripts") no
+Tab7:Seperator("credits to the people that I put scripts")
