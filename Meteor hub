@@ -13,6 +13,36 @@ Tab1:Button("Hoho hub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/HohoHub.lua'))()
 end)
 
+Tab1:Button("Car Dealership Tycoon",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
+end)
+
+Tab1:Button("RTX gui",function()
+    print("hi")
+loadstring(game:HttpGet('https://pastebin.com/raw/Bkf0BJb3'))()
+end)
+
+Tab1:Button("Fates Admin",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+Tab1:Button("Fe R15 gui",function()
+    print("hi")
+loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+end)
+
+Tab1:Button("Simplity hub V2",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+end)
+
+Tab1:Button("Starving Artist",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
+end)
+
 Tab1:Button("Fates ESP",function()
     print("you executed fates esp")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
