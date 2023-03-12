@@ -48,6 +48,11 @@ Tab1:Button("Fates ESP",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
 end)
 
+Tab1:Button("scp 096",function()
+    print("you executed fates esp")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0scp096", true))()
+end)
+
 Tab1:Button("Infectious Smile",function()
     print("you executed fates esp")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/InfectiousSmile.lua", true))()
@@ -207,19 +212,19 @@ Tab3 = Library:Tab("Updates/Changelog")
 
 Tab3:Seperator("added Car Dealership Tycoon")
 
-Tab3:Seperator("Starving Artist")
+Tab3:Seperator("added Starving Artist")
 
-Tab3:Seperator("RTX Gui")
+Tab3:Seperator("added RTX Gui")
 
-Tab3:Seperator("Fates Admin")
+Tab3:Seperator("added Fates Admin")
 
-Tab3:Seperator("Simplity V2 Hub")
+Tab3:Seperator("added Simplity V2 Hub")
 
 Tab4 = Library:Tab("My Scripts")
 
 Tab4:Button("Zhub",function()
     print("you executed a boat!")
-loadstring(game: Http get ('https://pastebin.com/raw/qszMmgXD'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/qszMmgXD'))()
 end)
 
 Tab5 = Library:Tab("Executers")
