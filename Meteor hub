@@ -141,6 +141,11 @@ end)
 
 Tab2 = Library:Tab("Mics")
 
+Tab2:Button("Noclip",function()
+    print("hi")
+Loadstring(game:HttpGet('https://raw.githubusercontent.com/Zachohio/Meteor-hub/main/Nocilp'))()
+end)
+
 Tab2:Button("Reviz",function()
     print("hi")
 loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
@@ -210,15 +215,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("added Car Dealership Tycoon")
-
-Tab3:Seperator("added Starving Artist")
-
-Tab3:Seperator("added RTX Gui")
-
-Tab3:Seperator("added Fates Admin")
-
-Tab3:Seperator("added Simplity V2 Hub")
+Tab3:Seperator("added Noclip")
 
 Tab4 = Library:Tab("My Scripts")
 
