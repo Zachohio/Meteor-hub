@@ -250,14 +250,17 @@ game.StarterGui:SetCore("SendNotification", {Title="discord has been copied your
 wait(9)
 end)
 
+game.StarterGui:SetCore("SendNotification", {Title="Script Executed!"; Text=""; Duration=4;})
+wait(1)
+
 Tab7:Button("YouTube",function()
 setclipboard("https://www.youtube.com/@Zacharyo217")
 game.StarterGui:SetCore("SendNotification", {Title="YouTube has been copied your clipboard"; Text="you better subscribe or I will fuck you"; Duration=3;})
 wait(4)
 end)
 
-game.StarterGui:SetCore("SendNotification", {Title="Hi"; Text="a little reminder if you want to join the discord is in credits"; Duration=3;})
-wait(4)
+game.StarterGui:SetCore("SendNotification", {Title="Hi"; Text="a little reminder if you want to join the discord is in credits"; Duration=6;})
+wait(9)
 
 game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel is: Zachts"; Duration=6;})
 wait(9)
