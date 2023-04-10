@@ -104,6 +104,13 @@ Tab1:Button("be ninja parkour",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/TheExploiterBoy/be-ninja-parkour/main/be%20ninja%20parkour'))()
 end)
 
+Tab1:Button("Scicopod Be a parkour Hub",function()
+    print("hi")
+loadstring(game:HttpGet("https://pastebin.com/raw/WvKBGsuw", true))()
+game.StarterGui:SetCore("SendNotification", {Title="Hey!"; Text="If you wanna use Hitbox execute the mobkey first"; Duration=8;})
+wait(6)
+end)
+
 Tab1:Button("doors",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
@@ -166,9 +173,26 @@ Tab2:Button("animation changer v2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
 end)
 
-Tab2:Button("GamesHub",function()
+Tab2:Button("Games Hubs v5",function()
     print("hi")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-V5-Selector-Fixed/main/Games"))()
+end)
+
+Tab2:Button("Games Hubs v4",function()
+    print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V4/main/Games%20HUB%20Destroyer%20V4"))()
+end)
+
+Tab2:Button("Games Hubs v3",function()
+    print("hi")
+loadstring(game:HttpGet('https://pastebin.com/raw/LemyvsGk'))()
+game.StarterGui:SetCore("SendNotification", {Title="Hey!"; Text="if it doesn't work tell me on discord"; Duration=6;})
+wait(1)
+end)
+
+Tab2:Button("mini hub v3",function()
+    print("you executed fle")
+loadstring(game:HttpGet('https://pastebin.com/raw/WdK7epiW'))()
 end)
 
 Tab2:Button("mini hub v2",function()
@@ -196,6 +220,11 @@ Tab2:Button("build a boat",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
 end)
 
+Tab2:Button("Doomspire ski hub",function()
+    print("you executed a boat!")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Yousuck780/lfp/main/Doomspire"), true))()
+end)
+
 Tab2:Button("evade",function()
     print("you executed a boat!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
@@ -217,32 +246,44 @@ Tab3 = Library:Tab("Updates/Changelog")
 
 Tab3:Seperator("added Noclip")
 
-Tab4 = Library:Tab("My Scripts")
+Tab4 = Library:Tab("Rules")
 
-Tab4:Button("Zhub",function()
+Tab4:Seperator("1 neverclick the mysterious link on credit")
+
+Tab4:Seperator("2 do not give the script to anybody")
+
+Tab5 = Library:Tab("My Scripts")
+
+Tab5:Button("Zhub",function()
     print("you executed a boat!")
 loadstring(game:HttpGet('https://pastebin.com/raw/qszMmgXD'))()
 end)
 
-Tab5 = Library:Tab("Executers")
+Tab6 = Library:Tab("Executers")
 
-Tab5:Button("Arceus",function()
+Tab6:Button("Arceus",function()
     print("you executed a boat!")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 end)
 
-Tab5:Button("Synapse",function()
+Tab6:Button("Synapse",function()
     print("you executed a boat!")
 loadstring(game:HttpGet("https://pastebin.com/raw/tWGxhNq0"))()
 end)
 
-Tab6 = Library:Tab("IN DEVELOPMENT")
+Tab7 = Library:Tab("IN DEVELOPMENT")
 
-Tab7 = Library:Tab("Credits")
+Tab8 = Library:Tab("Credits")
 
-Tab7:Seperator("Peter Griffin says YOU STUPID NIGGER I HATE NIGGERS")
+Tab8:Seperator("Peter Griffin says YOU STUPID NIGGER I HATE NIGGERS")
 
-Tab7:Seperator("Ui made by Zachts")
+Tab8:Seperator("Ui made by Zachts")
+
+Tab8:Button("........Mysterious Link?...?.", function()
+setclipboard("https://www.pornhub.com/view_video.php?viewkey=63dd8219f21c4")
+game.StarterGui:SetCore("SendNotification", {Title="You Copyed A Mysterious Link"; Text="you copied something unexplained"; Duration=6;})
+wait(1)
+end)
 
 Tab7:Button("Discord", function()
 setclipboard("https://discord.gg/Wnx7CkaZ")
@@ -266,3 +307,23 @@ game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel
 wait(9)
 
 Tab7:Seperator("credits to the people that I put scripts")
+
+Tab7:Button("Abraham Video games youtube",function()
+setclipboard("https://youtube.com/@Abrahamvideogames")
+game.StarterGui:SetCore("SendNotification", {Title="GG man"; Text="subscribe to him and your a giga chad"; Duration=3;})
+wait(4)
+end)
+
+Tab7:Button("GamingScripter youtube",function()
+setclipboard("https://youtube.com/@GamingScripter")
+game.StarterGui:SetCore("SendNotification", {Title="is sad"; Text="he teach me how to code and 1 day he stop uploading"; Duration=3;})
+wait(4)
+end)
+
+Tab7:Button("JN HH Gaming youtube",function()
+setclipboard("https://youtube.com/@JNHHGaming")
+game.StarterGui:SetCore("SendNotification", {Title="a news reporter"; Text="have no idea what to say"; Duration=3;})
+wait(4)
+end)
+
+Tab7:Seperator("ppl that you should subscribe to")
