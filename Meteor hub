@@ -244,7 +244,7 @@ end)
 
 Tab3 = Library:Tab("Updates/Changelog")
 
-Tab3:Seperator("added Noclip")
+Tab3:Seperator("i honestly forgot what I added into this script since my phone was damage")
 
 Tab4 = Library:Tab("Rules")
 
