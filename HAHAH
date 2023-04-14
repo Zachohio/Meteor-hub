@@ -1,7 +1,0 @@
-local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
-
-local Library = DarkraiX:Window("Meteor hub","keybind J","J",Enum.KeyCode.J);
-
-Tab1 = Library:Tab("HAHHAHAAHHAA  HAHAHAAHAHAHAHAH")
-
-Tab1:Seperator("HAHAHAHHAAHAHAHAHAHAHAHAHAHHAHAAHAHAHAH IM JUST JOKING YOU THOG")
