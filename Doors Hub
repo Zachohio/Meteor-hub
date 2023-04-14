@@ -11,6 +11,11 @@ Tab1:Button("MSdoors (BEST PC AND MOBILE)",function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
 end)
 
+Tab1:Button("Nerd Hub (2ND BEST PC AND MOBILE)",function()
+    print("hi")
+    loadstring(game:HttpGet('https://pastebin.com/raw/tS95Cjgc'))()
+end)
+
 Tab1:Button("Entity spawnor (PC)",function()
     print("hi")
     loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
@@ -479,12 +484,6 @@ Tab1:Button("OminousVibes Doors (PC)",function()
     print("hi")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/main.lua"))()
 end)
-
-Tab1:Button("Nerd Hub (PC AND MOBILE)",function()
-    print("hi")
-    loadstring(game:HttpGet('https://pastebin.com/raw/tS95Cjgc'))()
-end)
-
 
 Tab2 = Library:Tab("Mics")
 
