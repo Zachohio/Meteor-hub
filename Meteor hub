@@ -277,7 +277,7 @@ Tab8 = Library:Tab("Credits")
 
 Tab8:Seperator("Peter Griffin says YOU STUPID NIGGER I HATE NIGGERS")
 
-Tab8:Seperator("Ui made by Zachts")
+Tab8:Seperator("made by Zachts#8994")
 
 Tab8:Button("........Mysterious Link?...?.", function()
 setclipboard("https://www.pornhub.com/view_video.php?viewkey=63dd8219f21c4")
@@ -305,6 +305,10 @@ wait(9)
 
 game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel is: Zachts"; Duration=6;})
 wait(9)
+
+game.StarterGui:SetCore("SendNotification", {Title="friend me on discord"; Text="my user is: Zachts#8994"; Duration=6;})
+wait(9)
+
 
 Tab7:Seperator("credits to the people that I put scripts")
 
