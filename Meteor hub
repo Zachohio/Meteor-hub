@@ -301,13 +301,13 @@ wait(4)
 end)
 
 game.StarterGui:SetCore("SendNotification", {Title="Hi"; Text="a little reminder if you want to join the discord is in credits"; Duration=6;})
-wait(9)
+wait(10)
 
 game.StarterGui:SetCore("SendNotification", {Title="subscribe"; Text="my channel is: Zachts"; Duration=6;})
-wait(9)
+wait(1)
 
 game.StarterGui:SetCore("SendNotification", {Title="friend me on discord"; Text="my user is: Zachts#8994"; Duration=6;})
-wait(9)
+wait(1)
 
 
 Tab7:Seperator("credits to the people that I put scripts")
