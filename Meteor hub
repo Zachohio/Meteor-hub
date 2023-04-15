@@ -285,7 +285,7 @@ game.StarterGui:SetCore("SendNotification", {Title="You Copyed A Mysterious Link
 wait(1)
 end)
 
-Tab7:Button("Discord", function()
+Tab8:Button("Discord", function()
 setclipboard("https://discord.gg/Wnx7CkaZ")
 game.StarterGui:SetCore("SendNotification", {Title="discord has been copied your clipboard"; Text="you were brave enough eh"; Duration=6;})
 wait(9)
@@ -294,7 +294,7 @@ end)
 game.StarterGui:SetCore("SendNotification", {Title="Script Executed!"; Text=""; Duration=4;})
 wait(1)
 
-Tab7:Button("YouTube",function()
+Tab8:Button("YouTube",function()
 setclipboard("https://www.youtube.com/@Zacharyo217")
 game.StarterGui:SetCore("SendNotification", {Title="YouTube has been copied your clipboard"; Text="you better subscribe or I will fuck you"; Duration=3;})
 wait(4)
@@ -310,24 +310,24 @@ game.StarterGui:SetCore("SendNotification", {Title="friend me on discord"; Text=
 wait(1)
 
 
-Tab7:Seperator("credits to the people that I put scripts")
+Tab8:Seperator("credits to the people that I put scripts")
 
-Tab7:Button("Abraham Video games youtube",function()
+Tab8:Button("Abraham Video games youtube",function()
 setclipboard("https://youtube.com/@Abrahamvideogames")
 game.StarterGui:SetCore("SendNotification", {Title="GG man"; Text="subscribe to him and your a giga chad"; Duration=3;})
 wait(4)
 end)
 
-Tab7:Button("GamingScripter youtube",function()
+Tab8:Button("GamingScripter youtube",function()
 setclipboard("https://youtube.com/@GamingScripter")
 game.StarterGui:SetCore("SendNotification", {Title="is sad"; Text="he teach me how to code and 1 day he stop uploading"; Duration=3;})
 wait(4)
 end)
 
-Tab7:Button("JN HH Gaming youtube",function()
+Tab8:Button("JN HH Gaming youtube",function()
 setclipboard("https://youtube.com/@JNHHGaming")
 game.StarterGui:SetCore("SendNotification", {Title="a news reporter"; Text="have no idea what to say"; Duration=3;})
 wait(4)
 end)
 
-Tab7:Seperator("ppl that you should subscribe to")
+Tab8:Seperator("ppl that you should subscribe to")
