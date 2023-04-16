@@ -1,3 +1,5 @@
+if game.PlaceId == 6516141723 then
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
@@ -513,7 +515,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab("Utilitys", 4483362458)
 
-local Section = Tab:CreateSection("Main Section")
+local Section = Tab:CreateSection("Utility Section")
 
 local Button = Tab:CreateButton({
 	Name = "Entity spawnor (PC WILL CLOSE THE GUI)",
@@ -529,13 +531,52 @@ local Button = Tab:CreateButton({
 	end,
 })
 
+local Button = Tab:CreateButton({
+	Name = "Revive (ONIY IF YOU HAVE A REVIVE)",
+	Callback = function()
+		game.ReplicatedSotrage.Brick.Revive:FireServer()
+	end,
+})
+
+local Slider = Tab:CreateSlider({
+	Name = "Speed",
+	Range = {0, 100},
+	Increment = 10,
+	Suffix = "Bananas",
+	CurrentValue = 10,
+	Flag = "Slider1",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 
+	end,
+})
+
+local Tab = Window:CreateTab("My Scripts", 4483362458)
+
+local Section = Tab:CreateSection("My Scripts Section")
+
+local Button = Tab:CreateButton({
+	Name = "Zhub",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/qszMmgXD'))()
+	end,
+})
+
+local Tab = Window:CreateTab("Credits", 4483362458)
+
+local Section = Tab:CreateSection("Credits Section")
+
+local Label = Tab:CreateLabel("Made By Zachts#8994")
+
+local Label = Tab:CreateLabel("Credits To Rayfield UI")
+
+
+
 
 game.StarterGui:SetCore("SendNotification", {Title="Script Executed!"; Text=""; Duration=4;})
 wait(1)
 
 game.StarterGui:SetCore("SendNotification", {Title="NOTE!"; Text="This Script Is Still In Development Only Some People Can Access This Script Including Beta Tester and owner"; Duration=4;})
 wait(1)
-
 
 
 
