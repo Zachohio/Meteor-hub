@@ -15,7 +15,7 @@ local Window = Rayfield:CreateWindow({
 		Subtitle = "Key System",
 		Note = "Join the discord (https://discord.gg/8jeqqSQqa6)",
 		SaveKey = false,
-		Key = "UniversalExploits"
+		Key = "UniversalScripts"
 	}
 })
 
@@ -565,7 +565,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Universal Exploits Discord",
+	Name = "Universal Scripts Discord",
 	Callback = function()
 		setclipboard("https://discord.gg/zBRBaUZKms")
 	end,
