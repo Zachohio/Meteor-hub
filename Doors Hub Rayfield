@@ -1,13 +1,13 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
 local Window = Rayfield:CreateWindow({
-	Name = "Doors Hub",
+	Name = "Doors Hub 2.4.0",
 	LoadingTitle = "A Hub For Doors",
 	LoadingSubtitle = "Made By Zachts#8994",
 	ConfigurationSaving = {
 		Enabled = true,
 		FolderName = "Doors",
-		FileName = "FUCKME"
+		FileName = "DoorsSex"
 	},
 	KeySystem = false,
 	KeySettings = {
