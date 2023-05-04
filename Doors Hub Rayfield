@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
 		FolderName = "Doors",
 		FileName = "FUCKME"
 	},
-	KeySystem = true,
+	KeySystem = false,
 	KeySettings = {
 		Title = "Doors Hub",
 		Subtitle = "Key System",
@@ -19,16 +19,16 @@ local Window = Rayfield:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab("Main", 4483362458)
+local Tab = Window:CreateTab("Main", 13338828722)
 
 local Section = Tab:CreateSection("Main Section")
 
 local Label = Tab:CreateLabel("Welcome User, You May Use The Gui")
 
 local Button = Tab:CreateButton({
-	Name = "MSdoors (BEST PC AND MOBILE)",
+	Name = "MSdoors (BEST PC AND NEW)",
 	Callback = function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
 	end,
 })
 
@@ -513,7 +513,7 @@ local Button = Tab:CreateButton({
 	end,
 })
 
-local Tab = Window:CreateTab("Utilitys", 4483362458)
+local Tab = Window:CreateTab("Utilitys", 13338933608)
 
 local Section = Tab:CreateSection("Utility Section")
 
@@ -538,7 +538,7 @@ local Button = Tab:CreateButton({
 	end,
 })
 
-local Tab = Window:CreateTab("My Scripts", 4483362458)
+local Tab = Window:CreateTab("My Scripts", 13338922926)
 
 local Section = Tab:CreateSection("My Scripts Section")
 
@@ -549,7 +549,7 @@ local Button = Tab:CreateButton({
 	end,
 })
 
-local Tab = Window:CreateTab("Credits", 4483362458)
+local Tab = Window:CreateTab("Credits", 13338837513)
 
 local Section = Tab:CreateSection("Credits Section")
 
