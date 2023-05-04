@@ -9,7 +9,7 @@ local Window = Rayfield:CreateWindow({
 		FolderName = "Doors",
 		FileName = "DoorsSex"
 	},
-	KeySystem = false,
+	KeySystem = true,
 	KeySettings = {
 		Title = "Doors Hub",
 		Subtitle = "Key System",
