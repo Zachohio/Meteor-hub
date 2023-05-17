@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Zachohio/Meteor-hub/main/Meteor%20hub'))()
